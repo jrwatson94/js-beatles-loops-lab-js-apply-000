@@ -28,11 +28,12 @@ function iLoveTheBeatles(number){
   var i = 0;
   var loveBeatles = "I love the Beatles!";
   
-  do {
+  if (number < 15){
+    do {
     arr.push(loveBeatles);
     i++;
+   }
+    while (i < (15 - number));
   }
-  while (i < (15 - number));
-  
   return arr;
 }
