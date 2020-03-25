@@ -30,5 +30,7 @@ function iLoveTheBeatles(number){
   
   do {
     arr[i] = arr.push(loveBeatles);
+    i++;
   }
+  while (i < (15 - number));
 }
