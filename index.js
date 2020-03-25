@@ -10,4 +10,6 @@ function theBeatlesPlay (arrayMusicians,arrayInstruments){
 }
 
 
-function 
+function johnLennonFacts (arrayFacts){
+  
+}
